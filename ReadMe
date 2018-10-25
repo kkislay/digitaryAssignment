@@ -1,0 +1,23 @@
+Hello,
+
+Thanks for evaluating the code.
+
+Following are some guidelines which would be helpful in the process :-
+1. Environment dependency :-
+    1.1 Junit - junit-4.10.jar
+    1.2 Selenium - selenium-server-standalone-2.53.1.jar
+    1.3 Firefox Driver - geckodriver-v0.23.0
+    1.4 OS - Ubuntu 16.04
+    1.5 Firefox Browser - FF 46.0.1
+    1.6 IDE - IntelliJ IDEA
+
+
+2. I have tried to focus on all the possible testcases which would be testable with different datasets.
+
+3. Testcases are written in the test functions with testdata.
+
+4. Geckodriver is set in the system property in Setup method. If the code doesn't run then please download the geckodriver and mention the path of it in //System.setProperty("webdriver.gecko.driver", "/home/local/CORVIL/kkislay/Downloads/geckodriver");
+
+5. As per my observation, if the tests are failing due to not finding addresses xPath, please run the test again.
+
+6.
